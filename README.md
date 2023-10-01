@@ -6,7 +6,7 @@ The repository is organized in folder <=> method basis, meaning every
 method in the namespace has its own folder of the same name.
 
 Every folder contains the next files:
-- `.md` file, documenting the method in more details
+- `README.md` file, documenting the method in more details
 - `.ts` file, documenting the data types of the method
 
 Because some data types can be shared or aliased between different methods,
@@ -14,7 +14,7 @@ there is also a "shared" folder containing `.ts` files to be used between the me
 
 ## Content
 - [debug_accountRange](./debug_accountRange)
-  - [docs](./debug_accountRange/debug_accountRange.md)
+  - [docs](./debug_accountRange/README.md)
   - [data types](./debug_accountRange/debug_accountRange.ts)
 
 ![ns_debug_docs_banner](./assets/banner.png)
