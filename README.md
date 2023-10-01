@@ -12,3 +12,8 @@ Every folder contains the next files:
 
 Because some data types can be shared or aliased between different methods,
 there is also a "shared" folder containing `.ts` files to be used between the method definitions
+
+## Content
+- [debug_accountRange](./debug_accountRange)
+  - [docs](./debug_accountRange/debug_accountRange.md)
+  - [data types](./debug_accountRange/debug_accountRange.ts)
