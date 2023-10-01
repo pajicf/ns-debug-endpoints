@@ -1,4 +1,3 @@
-![ns_debug_docs_banner](./assets/banner.png)
 # Debug namespace RPC Methods
 This repository documents the **non standard** methods of the `debug_` namespace of Go Ethereum client RPC
 
@@ -17,3 +16,5 @@ there is also a "shared" folder containing `.ts` files to be used between the me
 - [debug_accountRange](./debug_accountRange)
   - [docs](./debug_accountRange/debug_accountRange.md)
   - [data types](./debug_accountRange/debug_accountRange.ts)
+
+![ns_debug_docs_banner](./assets/banner.png)
