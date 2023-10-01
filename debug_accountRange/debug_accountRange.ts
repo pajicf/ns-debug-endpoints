@@ -13,5 +13,5 @@ type Params = [
 
 type Returns = {
 	root: string;
-	accounts: Record<string, IAccountDump> // Address => AccountDump
+	accounts: Record<string, IAccountDump>; // Address => AccountDump
 }
