@@ -1,7 +1,4 @@
-import {Hash} from "./common";
-
-export type BlockNumber = number // int64
-export type BlockHash = Hash;
+import {BlockHash, BlockNumber} from "./common";
 
 export interface IBlockNumberOrHash {
   blockNumber: BlockNumber;
