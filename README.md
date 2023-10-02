@@ -16,5 +16,8 @@ there is also a "shared" folder containing `.ts` files to be used between the me
 - [debug_accountRange](./debug_accountRange)
   - [docs](./debug_accountRange/README.md)
   - [data types](./debug_accountRange/debug_accountRange.ts)
+- [debug_backtraceAt](./debug_backtraceAt)
+  - [docs](./debug_backtraceAt/README.md)
+  - [data types](./debug_backtraceAt/debug_backtraceAt.ts)
 
 ![ns_debug_docs_banner](./assets/banner.png)
