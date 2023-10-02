@@ -32,14 +32,11 @@ async function createFile(directory, fileName, content) {
 }
 
 async function createFiles(methodName) {
-    fs.writeFile(`./${methodName}/README.md`, scaffoldReadmeContent(methodName), function (err) {
-        if (err) throw err;
-    });
     const directoryToWrite = `./${methodName}`;
     const readmeFileName = `README.md`;
     const dataTypeFileName = `${methodName}.ts`;
 
-    await createFile(directoryToWrite, readmeFileName, scaffoldReadmeContent());
+    await createFile(directoryToWrite, readmeFileName, scaffoldReadmeContent(methodName));
     await createFile(directoryToWrite, dataTypeFileName, scaffoldDataTypesContent(methodName));
 }
 
