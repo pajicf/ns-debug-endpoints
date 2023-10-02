@@ -2,7 +2,7 @@ const process = require("process")
 const fs = require('fs');
 
 const scaffoldReadmeContent = (methodName) => {
-    return `## debug_backtraceAt\n\n### Parameters\n-\n\n### Returns\n-`;
+    return `## ${methodName}\n\n### Parameters\n-\n\n### Returns\n-`;
 }
 
 const scaffoldDataTypesContent = (methodName) => {
