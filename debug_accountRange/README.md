@@ -18,5 +18,6 @@ If `incompletes` is false, then accounts for which the key preimage (i.e: the ad
 
 
 ### Returns
+object
 - **root** - string
 - **accounts** - map[AccountHash][AccountDump](../shared/accounts.ts#3)

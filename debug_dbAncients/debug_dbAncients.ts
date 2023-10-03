@@ -1,5 +1,3 @@
 type Params = null
 
-type Returns = [
-  numberOfItems: number
-]
+type Returns = number // numberOfItems

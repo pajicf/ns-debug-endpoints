@@ -6,7 +6,14 @@ The repository is organized in folder <=> method basis, meaning every
 method in the namespace has its own folder of the same name.
 
 Every folder contains the next files:
-- `README.md` file, documenting the method in more details
+- `README.md` file, documenting the method in more details in the following structure
+  - Name of the method
+  - Input parameters, which are always ordered set of variables (a tuple)
+  - Return, which can either be
+    - None
+    - object
+    - Single Value, but named for easier reading.
+      - Example: [debug_dbAncients](./debug_dbAncients/README.md) where it returns a `uint64` but we named it `numberOfItems` in the readme for easier readability
 - `.ts` file, documenting the data types of the method
 
 Because some data types can be shared or aliased between different methods,

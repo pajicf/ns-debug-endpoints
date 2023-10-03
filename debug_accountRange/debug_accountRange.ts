@@ -1,6 +1,6 @@
 import {IBlockNumberOrHash} from "../shared/blocks";
 import {Bytes} from "../shared/common";
-import {IAccountDump} from "../shared/accounts";
+import {IDump} from "../shared/state";
 
 type Params = [
 	blockNrOrHash: IBlockNumberOrHash,
@@ -11,7 +11,4 @@ type Params = [
 	incompletes: boolean
 ]
 
-type Returns = {
-	root: string;
-	accounts: Record<string, IAccountDump>; // Address => AccountDump
-}
+type Returns = IDump

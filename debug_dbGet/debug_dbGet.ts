@@ -4,6 +4,4 @@ type Params = [
   key: string
 ]
 
-type Returns = [
-  value: Bytes
-]
+type Returns = Bytes
