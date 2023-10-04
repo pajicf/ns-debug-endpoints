@@ -12,6 +12,7 @@ Every folder contains the next files:
   - Return, which can either be
     - None
     - object
+    - array of objects
     - Single Value, but named for easier reading.
       - Example: [debug_dbAncients](./debug_dbAncients/README.md) where it returns a `uint64` but we named it `numberOfItems` in the readme for easier readability
 - `.ts` file, documenting the data types of the method
