@@ -12,3 +12,9 @@ export interface IStdTraceConfig extends ILoggerConfig {
   reexec: number,
   txHash: Hash
 }
+
+export interface ITxTraceResult {
+  txHash: Hash;
+  result: object;
+  error: string;
+}
