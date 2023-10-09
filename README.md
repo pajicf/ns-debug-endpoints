@@ -27,6 +27,19 @@ by running: `node scaffold_new_method.js [method_name]`
 Example: `node scaffold_new_method.js debug_accountRange`  
 Which will generate new files and directories.
 
+### Tracers
+Geth comes with a bundle of [built-in tracers](https://geth.ethereum.org/docs/developers/evm-tracing/built-in-tracers), each providing various data about a transaction. 
+Alternatively a [custom tracer](https://geth.ethereum.org/docs/developers/evm-tracing/custom-tracer) can be implemented in either Go or Javascript.
+
+Some method call results can be different based on which
+tracer is picked for usage.  
+For example [`ITxTraceResult`](./shared/tracer.ts) will return different object
+based on `tracer` param.  
+All `debug_trace*` method calls are setup this way.
+
+**In this repository, the next tracers have been documented:**
+- [Struct/opcode logger](./shared/logger/tracer_standard.ts)
+
 ## Content
 - [debug_accountRange](./debug_accountRange)
   - [docs](./debug_accountRange/README.md)
