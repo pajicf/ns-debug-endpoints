@@ -16,3 +16,9 @@ export interface IStdTraceConfig extends ILoggerConfig {
 export interface ITxTraceResult {
   result: ITxExecutionResult;
 }
+
+export interface IBlockTraceResult {
+  block: number;
+  hash: Hash;
+  traces: ITxTraceResult
+}
