@@ -15,6 +15,3 @@ This method is similar to [debug_standardTraceBlockToFile](../debug_standardTrac
 
 ### Returns
 - **txTraces** - array of objects
-  - **txHash** - [32]byte
-  - **result** - interface{}
-  - **error** - string

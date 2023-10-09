@@ -18,6 +18,3 @@ For the second parameter see [TraceConfig](../debug_traceTransaction) reference.
 
 ### Returns
 - **txTraces** - array of objects
-  - **txHash** - [32]byte
-  - **result** - interface{}
-  - **error** - string

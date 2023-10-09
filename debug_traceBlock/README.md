@@ -18,6 +18,3 @@ The `traceBlock` method will return a full stack trace of all invoked opcodes of
 
 ### Returns
 - **txTraces** - array of objects
-  - **txHash** - [32]byte
-  - **result** - interface{}
-  - **error** - string

@@ -1,5 +1,5 @@
 import {Bytes, Hash} from "./common";
-import {ILoggerConfig} from "./logger";
+import {ITxExecutionResult, ILoggerConfig} from "./logger/logger";
 
 export interface ITraceConfig extends ILoggerConfig {
   tracer?: string;
@@ -14,7 +14,5 @@ export interface IStdTraceConfig extends ILoggerConfig {
 }
 
 export interface ITxTraceResult {
-  txHash: Hash;
-  result: object;
-  error: string;
+  result: ITxExecutionResult;
 }
