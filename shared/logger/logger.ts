@@ -1,4 +1,4 @@
-import { IStructTxExecutionResult} from "./tracer_opcode";
+import { IStructTxExecutionResult} from "./tracer_standard";
 
 export type ILoggerConfig = {
   enableMemory?: boolean; // enable memory capture
