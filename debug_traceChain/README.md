@@ -8,6 +8,17 @@ please refer to the [subscription page](https://geth.ethereum.org/docs/interacti
 ### Parameters
 - **start** - int64
 - **end** - int64
+- **traceConfig** - object | nil
+  - **enableMemory** - bool | nil
+  - **disableStack** - bool | nil
+  - **disableStorage** - bool | nil
+  - **enableReturnData** - bool | nil
+  - **debug** - bool | nil
+  - **limit** - int | nil
+  - **tracer** - string | nil
+  - **timeout** - string | nil
+  - **exec** - uint64 | nil
+  - **tracerConfig** - []byte
 
 ### Returns
 - **blockTrace** - object

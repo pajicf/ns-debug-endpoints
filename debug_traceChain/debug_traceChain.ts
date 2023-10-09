@@ -1,8 +1,9 @@
-import {IBlockTraceResult} from "../shared/tracer";
+import {IBlockTraceResult, ITraceConfig} from "../shared/tracer";
 
 type Params = [
   start: number,
-  end: number
+  end: number,
+  config?: ITraceConfig
 ]
 
 type Returns = IBlockTraceResult
